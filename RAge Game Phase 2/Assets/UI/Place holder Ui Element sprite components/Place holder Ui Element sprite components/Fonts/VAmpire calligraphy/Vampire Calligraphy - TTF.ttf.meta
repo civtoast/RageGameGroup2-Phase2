@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f1cf600a6dae6af40bb1df74024be8f0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Vampire Calligraphy
+  fontNames:
+  - Vampire Calligraphy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 97f1129cb0928814b8f27c453f6f0796, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
