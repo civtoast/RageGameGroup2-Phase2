@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawnmanager : MonoBehaviour {
     public GameObject[] spawnObject;
     public Transform [] spawnPosition;
-
+  
     // Use this for initialization
     void Start () {
      
