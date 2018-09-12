@@ -15,24 +15,26 @@ public class Enemy : MonoBehaviour
     private EnemyState state = EnemyState.Patrol;
     private NavMeshAgent agent;
     private WaypointSolver wpSolver;
-    private GameObject player;
+    public GameObject player;
     public Animator animator;
     // Use this for initialization
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         wpSolver = GetComponent<WaypointSolver>();
-        player = FindObjectOfType<GameObject>();
-        animator.SetFloat("Walk", 1);
+        player = GameObject.FindGameObjectWithTag("Player");
+        state = EnemyState.Chase;
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            wpSolver.StopPatrolling();
+           
             state = EnemyState.Chase;
             animator.SetBool("Attack", true);
+            wpSolver.StopPatrolling();
         }
     }
 
@@ -42,8 +44,8 @@ public class Enemy : MonoBehaviour
         {
             if (state == EnemyState.Chase)
             {
-                // state = EnemyState.Patrol;
-                // wpSolver.StartPatrolling();
+                 //state = EnemyState.Patrol;
+                 //wpSolver.StartPatrolling();
                 animator.SetBool("Attack", false);
             }
         }
@@ -55,8 +57,9 @@ public class Enemy : MonoBehaviour
         animator.SetFloat("Walk", agent.velocity.magnitude);
         if (state == EnemyState.Chase)
         {
-            agent.SetDestination(player.transform.position);
            
+         agent.SetDestination(player.transform.position);
+            
         }
     }
 }
