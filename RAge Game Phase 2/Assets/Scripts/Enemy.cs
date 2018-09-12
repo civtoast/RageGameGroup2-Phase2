@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
 public enum EnemyState
 {
     Patrol,
@@ -18,7 +17,6 @@ public class Enemy : MonoBehaviour
     private WaypointSolver wpSolver;
     public GameObject player;
     public Animator animator;
-    public Enemycontoller enemy;
     // Use this for initialization
     void Start()
     {
