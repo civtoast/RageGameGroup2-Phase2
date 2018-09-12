@@ -85,7 +85,7 @@ public class Playercontroller : MonoBehaviour {
     void Attack()
     {
         stop = true; 
-      animator.SetBool("Attack", true);
+        animator.SetBool("Attack", true);
         StartCoroutine(Wait());
        
     }
