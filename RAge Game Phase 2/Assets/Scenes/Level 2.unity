@@ -700,6 +700,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &34248843
 Prefab:
   m_ObjectHideFlags: 0
@@ -781,6 +782,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> parent of 1a22eb8... chain animation
 =======
 >>>>>>> parent of 1a22eb8... chain animation
 --- !u!1001 &46322468
@@ -17029,7 +17032,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1313981969}
-  - component: {fileID: 1313981970}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -20240,11 +20242,14 @@ Transform:
   - {fileID: 731651322}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1a22eb8a1c69ffdf45bd1ce0d87b73291e98c753
 =======
 >>>>>>> 1a22eb8a1c69ffdf45bd1ce0d87b73291e98c753
   - {fileID: 1253691658}
   - {fileID: 1686897936}
+=======
+>>>>>>> parent of 1a22eb8... chain animation
 =======
 >>>>>>> parent of 1a22eb8... chain animation
   - {fileID: 1828447205}
@@ -22540,6 +22545,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
 =======
       value: 3.92
@@ -22547,6 +22553,9 @@ Prefab:
 =======
       value: 3.92
 >>>>>>> 1a22eb8a1c69ffdf45bd1ce0d87b73291e98c753
+=======
+      value: 3.57
+>>>>>>> parent of 1a22eb8... chain animation
 =======
       value: 3.57
 >>>>>>> parent of 1a22eb8... chain animation
@@ -22614,6 +22623,7 @@ GameObject:
   m_PrefabInternal: {fileID: 1947236511}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1947236513 stripped
 GameObject:
@@ -22639,6 +22649,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> parent of 1a22eb8... chain animation
 =======
 >>>>>>> parent of 1a22eb8... chain animation
 --- !u!1001 &1948607842
