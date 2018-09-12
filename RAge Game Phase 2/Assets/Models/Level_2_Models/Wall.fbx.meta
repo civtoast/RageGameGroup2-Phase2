@@ -4,98 +4,11 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Chans
-    100004: Chans_puller
-    100006: Dore_Way
-    100008: Floor
-    100010: Floor-Slab
-    100012: Floor-Slab-Edge_Bevel
-    100014: Floor-Slab-Side_Bevel
-    100016: Floting_Plat
-    100018: Floting_Plat.001
-    100020: Gate
-    100022: Lever
-    100024: Lever_WallMount
-    100026: Pipe
-    100028: Raling
-    100030: Sluge
-    100032: Wall
-    100034: Wall_Dore
     400000: //RootNode
-    400002: Chans
-    400004: Chans_puller
-    400006: Dore_Way
-    400008: Floor
-    400010: Floor-Slab
-    400012: Floor-Slab-Edge_Bevel
-    400014: Floor-Slab-Side_Bevel
-    400016: Floting_Plat
-    400018: Floting_Plat.001
-    400020: Gate
-    400022: Lever
-    400024: Lever_WallMount
-    400026: Pipe
-    400028: Raling
-    400030: Sluge
-    400032: Wall
-    400034: Wall_Dore
     2100000: Material
-    2100002: No Name
-    2100004: Sluge
-    2100006: Pipe
     2300000: //RootNode
-    2300002: Chans
-    2300004: Chans_puller
-    2300006: Dore_Way
-    2300008: Floor
-    2300010: Floor-Slab
-    2300012: Floor-Slab-Edge_Bevel
-    2300014: Floor-Slab-Side_Bevel
-    2300016: Floting_Plat
-    2300018: Floting_Plat.001
-    2300020: Gate
-    2300022: Lever
-    2300024: Lever_WallMount
-    2300026: Pipe
-    2300028: Raling
-    2300030: Sluge
-    2300032: Wall
-    2300034: Wall_Dore
     3300000: //RootNode
-    3300002: Chans
-    3300004: Chans_puller
-    3300006: Dore_Way
-    3300008: Floor
-    3300010: Floor-Slab
-    3300012: Floor-Slab-Edge_Bevel
-    3300014: Floor-Slab-Side_Bevel
-    3300016: Floting_Plat
-    3300018: Floting_Plat.001
-    3300020: Gate
-    3300022: Lever
-    3300024: Lever_WallMount
-    3300026: Pipe
-    3300028: Raling
-    3300030: Sluge
-    3300032: Wall
-    3300034: Wall_Dore
     4300000: Wall
-    4300002: Floor-Slab-Edge_Bevel
-    4300004: Floor-Slab-Side_Bevel
-    4300006: Raling
-    4300008: Floting_Plat.001
-    4300010: Floting_Plat
-    4300012: Lever
-    4300014: Lever_WallMount
-    4300016: Dore_Way
-    4300018: Gate
-    4300020: Wall_Dore
-    4300022: Floor-Slab
-    4300024: Floor
-    4300026: Chans_puller
-    4300028: Chans
-    4300030: Sluge
-    4300032: Pipe
   externalObjects: {}
   materials:
     importMaterials: 1
